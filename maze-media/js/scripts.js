@@ -16,6 +16,16 @@ $(document).ready(function() {
 		speed: 0.4
 	});
 
+	//form submit
+	window.onload = setForm;
+
+function setForm() {
+   document.forms[0].onsubmit = function() {
+      if (this.checkValidity()) alert("No invalid data detected. Will retain data for further testing.");
+      return false;
+   }
+}
+
 	// Square Boxes
 	function boxesHeight() {
 		var width = $('.brand, .service, .outlet').width();

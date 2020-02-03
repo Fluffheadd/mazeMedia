@@ -71,6 +71,7 @@ input:-webkit-autofill:focus {
 	-webkit-text-fill-color: #FFF;
 }
 
+/*--------------- body styling --------------- */
 body,
 html {
 	width: 100%;
@@ -170,6 +171,7 @@ p:first-child {
 	background-color: #456F9E;
 	color: #FFF;
 }
+/*--------------- header styling --------------- */
 
 header {
 	height: 105px;
@@ -250,7 +252,7 @@ header.scrolled nav ul li a {
 	height: 75px;
 	line-height: 75px;
 }
-
+/*--------------- hero styling --------------- */
 #hero {
 	height: 90%;
 	max-height: 780px;
@@ -337,6 +339,8 @@ header.scrolled nav ul li a {
 	font-weight: 800;
 	color: #FFF;
 }
+
+/*--------------- buckets styling --------------- */
 
 section .container.buckets {
 	padding-left: 0;
@@ -608,7 +612,7 @@ section .container.buckets {
 	font-size: 15px;
 	display: block;
 }
-
+/*--------------- form styles --------------- */
 #inner .container.form {
 	padding-top: 10px;
 }
@@ -684,7 +688,7 @@ form .row .button {
 	opacity: 0;
 	height: 0;
 }
-
+/*--------------- footer styles --------------- */
 footer {
 	z-index: 2;
 	user-select: none;
@@ -746,6 +750,7 @@ footer .copyright {
 	line-height: 1.5;
 	cursor: default;
 }
+/*--------------- mobile nav styles --------------- */
 
 #mobile {
 	position: fixed;
@@ -845,6 +850,7 @@ button.hamburger {
 	background-color: #F37037;
 }
 
+/*--------------- media queries --------------- */
 @media handheld,
 only screen and (max-width:1350px) {
 	.buckets .bucket .copy h3 {
